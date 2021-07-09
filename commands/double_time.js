@@ -20,7 +20,7 @@ module.exports = {
                 var minutes = now.getMinutes();
                 if(heures == minutes)
                 {
-                message.channel.send(`<@&863101511658897488> It'is time to touch your nose`)
+                message.channel.send(`<@&863101511658897488> It's time to touch your nose`)
                 }
                 await sleep(10000);
                 now = new Date();
