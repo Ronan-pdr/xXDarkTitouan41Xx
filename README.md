@@ -7,3 +7,9 @@ Une fois le projet clone, faites les commandes suivante:
 `npm install dotenv`
 Puis lancer index.js grâce à la commande suivante:
 `node index.js`
+
+Vous avez également besoin de faire un fichier .ENV où vous metterez le TOKEN et PREFIX comme présenté ci-dessous:
+```
+TOKEN = '....'
+PREFIX = '!'
+```
