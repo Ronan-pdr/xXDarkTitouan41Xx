@@ -18,9 +18,13 @@ module.exports = {
             while(true){
                 var heures = now.getHours();
                 var minutes = now.getMinutes();
-                if(heures == minutes)
+                if(heures == minutes && heures != 0)
                 {
                 message.channel.send(`<@&863101511658897488> It's time to touch your nose`)
+                }
+                if(heures == minutes && heures == 0)
+                {
+                message.channel.send(`<@&863101511658897488> HAPPY NEW YEAR`)
                 }
                 await sleep(10000);
                 now = new Date();
