@@ -10,6 +10,6 @@ Puis lancer index.js grâce à la commande suivante:
 
 Vous avez également besoin de faire un fichier .ENV où vous metterez le TOKEN et PREFIX comme présenté ci-dessous:
 ```
-TOKEN = '....'
+TOKEN = '<votre token>'
 PREFIX = '!'
 ```
